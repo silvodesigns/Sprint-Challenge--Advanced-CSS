@@ -1,3 +1,8 @@
+.hover-style {
+  color: #23293B;
+  background-color: white;
+  cursor: pointer;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -233,6 +238,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 150px;
+  background-color: #23293B;
+  color: white;
+  font-size: 2.2rem;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+.home .walk .btn:hover {
+  color: #23293B;
+  background-color: white;
+  cursor: pointer;
 }
 .home .walk .walk-img {
   width: 46%;
